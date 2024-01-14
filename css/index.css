@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  background-color: #1391ce;
+}
+
+.nav__item nav_btns {
+  color: #25468a;
+}
+.nav__item:hover {
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav__btns__download {
+  background-color: white;
+  color: #25468a;
+  border-color: white;
+  border-radius: 24px;
+  width: 116px;
+  height: 37px;
+}
+
+.nav__btns__download:hover {
+  background-color: #25468a;
+  color: white;
+  border-color: #25468a;
+  transition-duration: 0.4s;
+}
+
+.logo h2 {
+  color: #25468a;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.free-download_btn {
+  background-color: #f7ba0e;
+  color: #25468a;
+  border-radius: 26px;
+  width: 263.53px;
+  height: 51px;
+  border-color: #f7ba0e;
+}
+
+.free-download_btn:hover {
+  background-color: #25468a;
+  color: #f7ba0e;
+  border-color: #25468a;
+  transition-duration: 0.4s;
+}
+
+.text__left__hero {
+  font-size: 40px;
+  color: #25468a;
+}
+
+.text__left__hero_middle {
+  font-size: 30px;
+  color: #25468a;
+  margin: 10px 0;
+}
+
+.text__left__hero > p {
+  font-size: 20px;
+  color: #25468a;
+  margin-bottom: 10px;
+}
+header {
+  margin-bottom: 100px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  background-color: #1391ce;
+  color: white;
+  border-radius: 8px;
+}
+
+center h1 {
+  font-size: 40px;
+  color: #25468a;
+  margin-bottom: 50px;
+}
+
+.part-1_right {
+  color: #1391ce;
+}
+.HandBrake_txt-1 {
+  width: 448px;
+  height: 256px;
+  color: #25468a;
+}
+
+.part-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.part-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.part-2_left h1 {
+  color: #1391ce;
+}
+
+.part-2_left h2 {
+  color: #1391ce;
+}
+
+.part-2_left p {
+  color: #25468a;
+}
+
+.part-3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.part-3_right h2 {
+  color: #1391ce;
+}
+
+.part-3_right p {
+  color: #25468a;
+}
+
+footer {
+  background-color: #1391ce;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1391ce;
+  height: 70px;
+}
+
+footer > *p {
+  color: white;
+}
+
+.right_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p {
+  color: white;
+}
